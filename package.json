@@ -1,0 +1,35 @@
+{
+  "name": "kryptoniteapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "elasticemail": "^0.2.0",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "fs": "^0.0.1-security",
+    "joi": "^17.13.1",
+    "mongoose": "^8.4.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.2",
+    "path": "^0.12.7"
+    
+  }
+}
